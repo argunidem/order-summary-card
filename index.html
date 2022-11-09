@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Order Summary Card</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+
+    <div class="flex items-center justify-center min-h-screen bg-blue-1000">
+      <!-- Card Container -->
+
+      <div
+        class="flex flex-col mx-12 bg-white rounded-xl w-72 md:w-80 md:mx-auto"
+      >
+        <!-- Image -->
+        <img
+          src="./images/illustration-hero.svg"
+          alt=""
+          class="rounded-t-xl md:w-80"
+        />
+
+        <!-- Top Content -->
+        <div class="text-center w-full mx-auto pt-5 md:pt-8">
+          <h3 class="font-bold text-2xl leading-10 mb-2">Order Sumamry</h3>
+          <p class="text-sm font-thin text-blue-1200">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+
+        <!-- Middle Content -->
+
+        <div
+          class="flex items-center justify-evenly rounded-lg space-x-4 bg-slate-100 my-5 mx-8 py-4 px-2 md:mx-10"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+              <path
+                fill="#717FA6"
+                fill-rule="nonzero"
+                d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"
+              />
+            </g>
+          </svg>
+          <div>
+            <strong class="text-sm"> Annual Plan </strong>
+            <p class="text-xs opacity-60">$59.99/year</p>
+          </div>
+          <a
+            href="#"
+            class="text-blue-1100 text-sm underline hover:text-indigo-500 hover:no-underline"
+            >Change</a
+          >
+        </div>
+
+        <!-- Bottom Content -->
+
+        <div class="flex flex-col space-y-4 text-sm mb-3 mx-8 md:mx-10">
+          <button
+            class="bg-blue-1100 text-white rounded-lg p-3 font-bold shadow-lg shadow-slate-400 hover:bg-indigo-500"
+          >
+            Proceed to Payment
+          </button>
+          <button class="text-blue-1200 p-3 font-bold hover:text-black">
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
